@@ -1,19 +1,22 @@
 # 🚀 understandRedux
 
-A simple and clean React + Redux project built to **understand the core concepts of Redux** such as state, actions, reducers, and the Redux store.
+A modern and beginner-friendly React project built to learn and understand the **core concepts of Redux Toolkit** in a simple and practical way.
 
-This project is intentionally kept minimal and beginner-friendly, making it perfect for learning and tutorials.
+This project demonstrates how Redux manages global state using **slices, actions, reducers, and the Redux store** — all through a clean counter application with a beautiful glassmorphism UI.
 
 ---
 
 ## ✨ Features
 
-- 📦 Redux Toolkit setup
-- 🔄 Increment & decrement counter
-- 🔢 Increment / decrement by custom amount
-- 🎨 Modern glass-style UI (pure CSS)
-- 🧠 Clean and easy-to-read code structure
-- 💻 Beginner friendly (no CSS frameworks used)
+- ⚛️ React + Redux Toolkit integration
+- 📦 Centralized Redux store setup
+- 🔄 Increment & decrement functionality
+- 🔢 Increase / decrease counter by custom amount
+- 🧠 Simple and easy-to-understand Redux logic
+- 🎨 Modern glassmorphism user interface
+- 💻 Fully beginner-friendly project structure
+- 🚫 No Tailwind CSS or Bootstrap used
+- 📱 Responsive design
 
 ---
 
@@ -23,21 +26,24 @@ This project is intentionally kept minimal and beginner-friendly, making it perf
 - **Redux Toolkit**
 - **React Redux**
 - **JavaScript (ES6+)**
-- **CSS (No Tailwind / No Bootstrap)**
+- **CSS3**
 
 ---
 
 ## 📂 Project Structure
 
+```bash
+understandRedux/
+│
 ├── src/
-│ ├── redux/
-│ │ └── features/
-│ │ └── counterSlice.js
-│ ├── App.jsx
-│ ├── App.css
-│ ├── main.jsx
-│ └── store.js
+│   ├── redux/
+│   │   └── features/
+│   │       └── counterSlice.js
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   ├── main.jsx
+│   └── store.js
+│
 ├── package.json
 └── README.md
-
-
